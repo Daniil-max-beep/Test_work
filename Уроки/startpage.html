@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>getElementById</title>
+  <script>
+    function changeColor(newColor) {
+      var elem = document.getElementById("knopka");
+      elem.style.color = newColor;
+    }
+  </script>
+</head>
+<body>
+ 
+  <p id="knopka">Какой-то текст</p>
+  <button onclick="changeColor('orange')">оранжевый</button>
+  <button onclick="changeColor('red')">красный</button>
+ 
+</body>
+</html>
+
